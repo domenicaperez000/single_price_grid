@@ -57,6 +57,8 @@ textarea {
 .container {
     display: grid;
     position: absolute;
+    min-height: 100vh;
+    min-height: 100dvh;
     width: 635px;
     height: 485px;
     top: 50%;
@@ -64,14 +66,22 @@ textarea {
     transform: translate(-50%, -50%);
     overflow: hidden;
     border-radius: 8px;
-    grid-template-rows: 50% 25% 25%;
+   grid-template-rows: auto;
+
+
+   
+   grid-template-areas: "first first first"
+   ". second third";
 }
 .first {
     background-color: #ffffff;
+    grid-area: first;
 }
 .second {
     background-color: #2bb3b1;
+    grid-area: second;
 }
 .third {
     background-color: #4abebd;
+    grid-area: third;
 }
