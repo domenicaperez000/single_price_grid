@@ -71,7 +71,7 @@ textarea {
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-}
+    box-shadow: 2px 3px 20px 7px rgba(0,0,0,0.09);
 .first {
     background-color: #ffffff;
     grid-area: first;
@@ -144,4 +144,10 @@ textarea {
 }
 .second > button {
     grid-area: button;
+    background-color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 2px 11px 20px 0px rgba(0,0,0,0.24);
 }
