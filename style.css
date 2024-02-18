@@ -72,6 +72,7 @@ textarea {
     font-optical-sizing: auto;
     font-style: normal;
     box-shadow: 2px 3px 20px 7px rgba(0,0,0,0.09);
+}
 .first {
     background-color: #ffffff;
     grid-area: first;
@@ -149,5 +150,9 @@ textarea {
     color: #ffffff;
     border-radius: 6px;
     border: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.second > button:hover {
     box-shadow: 2px 11px 20px 0px rgba(0,0,0,0.24);
 }

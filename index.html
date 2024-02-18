@@ -23,9 +23,15 @@
     <h2>Monthly Subscription</h2>
     <h1>$29</h1><p>per month</p>
     <p class="bottom">Full access for less than $1 a day</p>
-    <button type="button">Sign Up</button>
-
+    <button type="button" onclick="gotoLink(this)" value="https://youtu.be/xVMkFJZhZYU?si=I6eaAtcR0QhO2Hlr">Sign Up</button>
   </div>
+
+  <script>
+    function gotoLink(link){
+      console.log(link.value);
+      location.href = 'https://youtu.be/xVMkFJZhZYU?si=I6eaAtcR0QhO2Hlr';
+    };
+  </script>
   <div class="third">
     <h2>Why Us</h2>
     <p>Tutorials by industry experts Peer & expert code review<br>
