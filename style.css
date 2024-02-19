@@ -174,9 +174,8 @@ textarea {
 }
 @media only screen and (max-width:660px) {
     .container {
-        
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 33.3% 33.3% 33.3%;
         grid-template-areas: 
         "first"
         "second"
@@ -187,4 +186,5 @@ textarea {
         left: 50%;
         transform: translate(-50%, -50%); 
     }
+    
 }
