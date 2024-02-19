@@ -188,5 +188,14 @@ textarea {
         transform: translate(-50%, -50%); 
         max-height: 100%;
     }
+    .first, .second, .third {
+        padding: 30px 20px 30px 20px;
+
+    }
+    .first > p {
+        font-size: 0.8rem;
+        height: fit-content;
+    }
+
 }
 
