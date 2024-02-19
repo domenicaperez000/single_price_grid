@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://domenicaperez000.github.io/singlepricegrid.github.io/)
+- Live Site URL: [https://domenicaperez000.github.io/singlepricegrid.github.io/]
 
 
 ### Built with
