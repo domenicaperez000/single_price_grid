@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Screenshot
 
-[(./Screenshot-Frontend-Mentor-Single-Price-Grid-Component.png)]
+![](./Screenshot-Frontend-Mentor-Single-Price-Grid-Component.png)
 
 ### Links
 
